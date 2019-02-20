@@ -1,0 +1,1 @@
+web: gunicorn makeablog.wsgi --log-file -
