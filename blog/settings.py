@@ -131,14 +131,5 @@ STATICFILES_DIRS = [
 STATIC_ROOT = os.path.join(BASE_DIR, 'static')
 
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
-
-<<<<<<< HEAD:blog/settings.py
+#HEAD:blog/settings.py
 MEDIA_URL = '/media/'
-
-# Heroku: Update database configuration from $DATABASE_URL.
-import dj_database_url
-db_from_env = dj_database_url.config(conn_max_age=500)
-DATABASES['default'].update(db_from_env)
-=======
-MEDIA_URL = '/media/'
->>>>>>> 9ce3bbdcdc9bfbae42aa4cb34d09dffc1133eef4:makeablog/blog/settings.py
